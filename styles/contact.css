@@ -1,0 +1,123 @@
+
+/* Contact Us */
+#contain {
+	max-width: 800px;
+	height: auto;
+	background: #444;
+	margin: 50px auto;
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+p {
+	font-family: "impact", Impact, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin-bottom: 20px;
+	background: linear-gradient(to right, #0575e6, #021b79);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.input,
+.msg .area {
+	background-image: url(../files/images/bg/bg-icon.png);
+	background-repeat: no-repeat;
+	background-size: 10%; 
+	background-position: bottom right;
+	background-blend-mode: luminosity;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	border: 2px solid #111;
+	font-size: 14px;
+	border-radius: 5px;
+	outline: none;
+	transition: all 0.5s;
+}
+
+.login .input {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.login .input:last-child {
+	margin-right: 0;
+}
+
+.msg .area {
+	height: 200px;
+}
+
+.input:focus,
+.msg .area:focus,
+.ver input:focus {
+	border: 2px solid #0575e6;
+}
+.req {
+	color: red;
+	font-size: 25px;
+}
+
+.spam {
+	color: green;
+}
+.ver {
+	padding-bottom: 10px;
+}
+label {
+	display: block;
+	letter-spacing: 2px;
+	color: white;
+}
+.ver input {
+	display: block;
+}
+
+
+.vrf {
+	width: 439px;
+	height: 27px;
+	background: #efefef;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: 0.9em;
+	color: #3a3a3a;
+	background: linear-gradient(to right, #ffffff, #d9d9d9);
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	border: 2px solid #111;
+	font-size: 14px;
+	border-radius: 5px;
+	outline: none;
+	transition: all 0.5s;
+}
+
+.submit{
+	width: 100%;
+	text-align: center;
+}
+
+.submit .btn{
+	background: linear-gradient(to right, #0575e6, #021b79);
+	padding: 12px 85px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 50px;
+}
+
+::-webkit-input-placeholder{
+	font-family: 'oswald';
+	color: #0575e6;
+}  

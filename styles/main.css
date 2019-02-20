@@ -1,0 +1,165 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+/* header */
+#WebsiteName {
+	color: white;
+	margin: auto;
+	width: auto;
+	max-width: 50%;
+	text-align: center;
+}
+.web_icon {
+	width: 50px;
+}
+header nav h1 a {
+	text-shadow: 5px 7px #555;
+	text-decoration: none;
+	font-size: 4vw;
+	color: rgb(255,255,255);
+	font-family: "Algerian", Algerian, serif;
+}
+header nav h1 a:hover {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+.navbar-brand {
+	color: red;
+}
+.nav-link {
+	color: white;
+}
+#web-icon:hover {
+  animation: shake 0.1s; 
+  animation-iteration-count: 2; 
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#active {
+	border: 1px solid #555;
+	background-color: #333;
+	border-radius: 150px;
+}
+div ul li a {
+	text-align: center;
+}
+#galdrop {
+	background-color: rgba(3,3,3,0.5);
+	border: 1px solid #444;
+	border-top: none;
+	border-radius: 1px 1px 160px 160px;
+	align-items: center;
+}
+#galdrop li a {
+	text-align: right; 
+	transform: translateX(-25%);
+}
+.gallink{
+	background-color: transparent;
+	text-align: center;
+}
+.gallink:hover {
+	background-color: transparent;
+	border: 1px solid none;
+	border-radius: 200px;
+}
+.dopdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+    width: absolute;
+}
+.dropdown-content li {
+	display: inline-block;
+	list-style-type: none;
+}
+.dropdown-content a:hover {
+	background-color: transparent;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#border {
+	border: 2px solid #444; 
+	border-radius: 50px;
+	width: 80%;
+}
+
+/* footer */
+.footer {
+	width: 100%;
+	background-color: #222;
+	color: white;
+	text-align: center;
+	padding: 3px 0px;
+	border: 1px solid rgba(5,5,5,0.5);
+	border-radius: 0px;
+}
+.sticky {
+	position: -webkit-fixed;
+ 	position: sticky;
+  	bottom: 0;
+}
+
+/* body */
+.body {
+	background-color: #333;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* intro */
+.intro {
+	color:#f2f2f2;
+	text-align: justify;
+	max-width: 800px;
+	height: auto;
+	background: rgb(45, 45, 45);
+	margin: 10px auto 55px auto;
+	box-sizing: border-box;
+	padding: 15px 20px 20px 20px;
+	border-radius: 5px;
+}
+.intro-title {
+	text-align: center;
+}
+/* Biography */
+.bio {
+	max-width: 800px;
+	height: auto;
+	background: #222;
+	margin: 10px auto 55px auto;
+	box-sizing: border-box;
+	padding: 40px;
+	border-radius: 5px;
+}
+/* About */
+.abt {
+	color: #f2f2f2;
+	max-width: 800px;
+	height: auto;
+	background: #222;
+	margin: 10px auto 55px auto;
+	box-sizing: border-box;
+	padding: 40px;
+	border-radius: 5px;
+}
+.abt_txt {
+	text-align: center;
+	position: center;
+	padding: 40px;
+}
