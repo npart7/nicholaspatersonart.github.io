@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
 	<head> 
-		<title>Biography</title>
+		<title>Contact</title>
 		<link rel="shortcut icon" href="files/images/icons/npa_website_icon.png">
 		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/contact.css">
 		<!--Bootstrap-->
 		<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
 		<!--Bootstrap_grid-->
@@ -23,7 +24,6 @@
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 
-				  <!-- Collect the nav links, forms, and other content for toggling -->
 				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav mr-auto">
 				      <li class="nav-item">
@@ -36,17 +36,16 @@
 				       	  <li><a class="nav-link gallink" href="gallery-2.html">Gallery 2</a></li>
 			        	 </ul> 
 		        	  </li>
-				      <li class="nav-item" id="active">
-				        <a class="nav-link" href="biography.html">Biography<span class="sr-only">(current)</span></a>
-				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="contact.php">Contact</a>
+				        <a class="nav-link" href="biography.html">Biography</a>
+				      <li class="nav-item" id="active">
+				        <a class="nav-link" href="contact.php">Contact <span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="about.html">About</a>
 				      </li>
 				    </ul>
-			<!--      <form class="form-inline my-2 my-lg-0">
+ 			<!--    <form class="form-inline my-2 my-lg-0">
 					  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> 
 				    </form>  -->
@@ -56,20 +55,31 @@
 			</div>
 		</header>
 
-		<main> 
-			<div class="content"> 
-				<p class="container bio" style="color: #f2f2f2; text-align: center;"> 
-					I have always been primarily a figurative artist, working in oil paint, fascinated by the challenges of painting people - Portraits, Nudes, Figure paintings - the possibilities are endless.
-					This website features an early portrait in oils 'Shaun' 1976 and much more recent portrait images of Kwan, made in Thailand over the past for years. My painting style has changed a lot in 38 years, not surprisingly.
-					I have also enjoyed working with Still Life imagery, my favourite painter is Matisse and I have tried to learn a lot from him. Many still life paintings were made in exotic locations around the world including; Sicily, Morocco, Vietnam, Thailand and West Africa, where I have been living for the past year and a half.
-					I have also been a landscape painter, inspired by the biggest skies, flat landscape and beaches of Norfolk where I lived from 2000 to 2009.
-					Living as I currently do in Togo, West Africa I have made a long series of sunset and skyscape paintings inspired by the brilliant light and colors of Africa. I have made 'Rainforest paintings' and paintings showing the sun setting over pink Flamingos on a small lake, an unforgettable sight here in West Africa. I have also made paintings inspired by visits to Ethiopia on the other side of the continent. Landing from a plane in Addis Ababa at 6 a.m in the morning the sky was a luminous pink and yellow that was almost fluorescent. My recent 'African paintings' are perhaps more abstract than my earlier work. <br>
-					<img style="width: 10%;" src="files/images/profile/paterson_profile_pic.jpg"> <br> Nicholas Paterson
-				</p>
-
+		<main>
+			<div class="container" id="contain"> 
+			  <form id="contact-form" method="post" action="php/contact-form.php">
+				<p>CONTACT US</p>
+				<div class="login">
+					<input type="text" name="name" placeholder="Your Name" class="input" required>
+					<input type="text" name="email" placeholder="Your Email" class="input" required>
+				</div>
+				<div class="subject"> 
+					<input type="text" name="subject" placeholder="Subject" class="input" required>
+				</div>
+				<div class="msg"> 
+					<textarea name="message" class="area" placeholder="Leave a Message"></textarea required>
+				</div>
+				<div class="ver"> 
+					<label><span class="req">*</span>What is 2+2? <span class="spam"><strong><em>(Anti-spam)</em></strong></span></label>
+					<input class="vrf" name="human" placeholder="Type Here" required>
+				</div>
+				<div class="submit"> 
+					<input class="btn" id="submit" name="submit" type="submit" value="Send Message">
+				</div>
+			  </form>
 			</div>
-		</main>
-		
+		</main> 
+				
 		<footer class="sticky">
 			<div class="footer"> 
 				&copy2019 NicholasPatersonART <img class="web_icon" src="files/images/icons/npa_website_icon.png">
