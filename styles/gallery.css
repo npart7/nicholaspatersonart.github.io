@@ -124,6 +124,18 @@
 .home .gallery {
   	padding-bottom: 80px;
 }
+.img-responsive {
+	-webkit-animation: gal-shdw 10s infinite; /* Safari 4.0 - 8.0 */
+	animation: gal-shdw 10s infinite;
+	}
+
+/* Safari 4.0 - 8.0 */
+	@-webkit-keyframes gal-shdw {
+		50% {box-shadow: 10px 20px 30px #222;}
+	}
+	@keyframes gal-shdw {
+		50% {box-shadow: 10px 20px 30px #222;}
+	}
 
 /* hr line */ 
 hr {
