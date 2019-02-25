@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 	<head> 
-		<title>Contact</title>
+		<title>Thank You</title>
 		<link rel="shortcut icon" href="files/images/icons/npa_website_icon.png">
 		<link rel="stylesheet" href="styles/main.css">
-		<link rel="stylesheet" href="styles/contact.css">
+		<link rel="stylesheet" href="styles/thanks.css">
 		<!--Bootstrap-->
 		<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
 		<!--Bootstrap_grid-->
@@ -39,7 +39,7 @@
 				      <li class="nav-item">
 				        <a class="nav-link" href="biography.html">Biography</a>
 				      <li class="nav-item" id="active">
-				        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+				        <a class="nav-link" href="contact.php">Contact <span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="about.html">About</a>
@@ -56,34 +56,11 @@
 		</header>
 
 		<main>
-			<div class="container" id="contain">
-			  <form id="contact-form" name="Contact Us" netlify-honeypot="bot-field" action="thanks.html" netlify>
-
-				<p style="display: none;">
-				    <label>Don’t fill this out: <input name="bot-field"></label>
-				</p>
-
-				<!--  <form id="contact-form" method="post" action="php/contact-form.php" netlify> -->
-
-				<p>CONTACT US</p>
-				<div class="login">
-					<input type="text" name="name" placeholder="Your Name" class="input" required>
-					<input type="text" name="email" placeholder="Your Email" class="input" required>
-				</div>
-				<div class="subject"> 
-					<input type="text" name="subject" placeholder="Subject" class="input" required>
-				</div>
-				<div class="msg"> 
-					<textarea name="message" class="area" placeholder="Leave a Message"></textarea required>
-				</div> <!--
-				<div class="ver"> 
-					<label><span class="req">*</span>What is 2+2? <span class="spam"><strong><em>(Anti-spam)</em></strong></span></label>
-					<input class="vrf" name="human" placeholder="Type Here" required>
-				</div> -->
-				<div class="submit"> 
-					<input class="btn" id="submit" name="submit" type="submit" value="Send Message">
-				</div>
-			  </form>
+			<div class="container" id="contain"> 
+				<p class="thx">THANKS FOR CONTACTING US</p>
+				<div class="thx-txt">
+					<img class="thx_ico" src="files/images/icons/npa_website_icon.png"> <br>
+					<p class="snt">Your message has been sent.</p>
 			</div>
 		</main> 
 				
