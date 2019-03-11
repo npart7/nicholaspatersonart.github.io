@@ -137,6 +137,7 @@ body {
 .intro-title {
 	text-align: center;
 }
+
 /* Biography */
 .bio {
 	max-width: 800px;
@@ -163,3 +164,18 @@ body {
 	position: center;
 	padding: 40px;
 }
+/* Scroll Bar */
+	/* width */
+	::-webkit-scrollbar {
+		width: 12px;
+	}
+	/* Track */
+	::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px grey; 
+		border-radius: 7px;
+	}
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #111; 
+		border-radius: 5px;
+	}
