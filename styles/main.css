@@ -126,7 +126,8 @@ body {
 .intro {
 	color:#f2f2f2;
 	text-align: justify;
-	max-width: 800px;
+	max-width: 95%;
+	width: 80%;
 	height: auto;
 	background: rgb(45, 45, 45);
 	margin: 10px auto 55px auto;
@@ -136,6 +137,10 @@ body {
 }
 .intro-title {
 	text-align: center;
+	font-size: 250%;
+}
+.intro-text {
+	font-size: 150%;
 }
 
 /* Biography */
