@@ -139,12 +139,13 @@ body {
 	text-align: center;
 	font-size: 250%;
 }
-.intro-text {
+.intro-txt {
 	font-size: 150%;
 }
 
 /* Biography */
 .bio {
+	color: #f2f2f2;
 	max-width: 800px;
 	height: auto;
 	background: #222;
@@ -152,7 +153,19 @@ body {
 	box-sizing: border-box;
 	padding: 40px;
 	border-radius: 5px;
+	font-size: 155%;
 }
+.bio-txt {
+	text-align: justify;
+}
+.bio-prfl {
+	text-align: center;	
+}
+.bio-prfl img {
+	max-width: 195px;
+	width: 38%;
+}
+
 /* About */
 .abt {
 	color: #f2f2f2;
@@ -168,6 +181,7 @@ body {
 	text-align: center;
 	position: center;
 	padding: 40px;
+	font-size: 150%;
 }
 /* Scroll Bar */
 	/* width */
