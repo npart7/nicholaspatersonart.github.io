@@ -13,12 +13,19 @@
 .web_icon {
 	width: 50px;
 }
+@font-face {
+	font-family: Algerian;
+	src: url("../fonts/algerian/algerian.eot?n1z373");
+	src: url("../fonts/algerian/algerian.eot?#iefixn1z373") format("embedded-opentype"), url("../fonts/algerian/algerian.woff?n1z373") format("woff"), url("../fonts/algerian/algerian.ttf?n1z373") format("truetype"), url("../fonts/algerian/algerian.svg?n1z373#algerian") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
 header nav h1 a {
 	text-shadow: 5px 7px #555;
 	text-decoration: none;
 	font-size: 4vw;
 	color: rgb(255,255,255);
-	font-family: "Algerian", Algerian, serif;
+	font-family: Algerian;
 }
 header nav h1 a:hover {
 	color: rgba(255,255,255,0.5);
