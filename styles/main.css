@@ -162,6 +162,10 @@ body {
 	border-radius: 5px;
 	font-size: 120%;
 }
+.bio-title {
+	text-align: center;
+	font-size: 30px;
+}
 .bio-txt {
 	text-align: justify;
 }
